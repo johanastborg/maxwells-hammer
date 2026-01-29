@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maxwells_hammer"
+version = "0.0.1"
+authors = [
+  { name="Johan Astborg", email="johanastborg@example.com" },
+]
+description = "A JAX-native SPICE solver"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "jax",
+    "jaxlib",
+    "numpy",
+    "scipy",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/johanastborg/maxwells-hammer"
